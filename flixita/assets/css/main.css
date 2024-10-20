@@ -12521,3 +12521,8 @@ a.wp-block-latest-posts__post-title {
 .woocommerce table.shop_table td a {
     text-decoration: none;
 }
+
+.sidebar .widget .wp-block-latest-comments {
+    padding: 1.8rem;
+}
+
