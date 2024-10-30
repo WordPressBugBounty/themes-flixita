@@ -12526,3 +12526,6 @@ a.wp-block-latest-posts__post-title {
     padding: 1.8rem;
 }
 
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
+    text-decoration: none;
+}
