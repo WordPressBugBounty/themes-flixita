@@ -12529,3 +12529,7 @@ a.wp-block-latest-posts__post-title {
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
     text-decoration: none;
 }
+
+.sidebar .wp-block-file {
+    padding: 1.8rem;
+}
