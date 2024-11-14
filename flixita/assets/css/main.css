@@ -12533,3 +12533,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .sidebar .wp-block-file {
     padding: 1.8rem;
 }
+
+.sidebar .wp-block-code {
+    padding: 1.8rem;
+}
