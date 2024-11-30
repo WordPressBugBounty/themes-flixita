@@ -71,7 +71,7 @@ jQuery( document ).ready(
 				jQuery.ajax(
 					{
 						type: 'GET',
-						data: {action: 'ti_customizer_notify_dismiss_recommended_plugins', id: id, todo: action},
+						data: {action: 'flixita_customizer_notify_dismiss_recommended_plugins', id: id, todo: action},
 						dataType: 'html',
 						url: flixitaCustomizercompanionObject.ajaxurl,
 						beforeSend: function () {

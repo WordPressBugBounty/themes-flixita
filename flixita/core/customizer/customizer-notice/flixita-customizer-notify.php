@@ -86,9 +86,9 @@ class flixita_Customizer_Notify {
 		add_action( 'customize_controls_enqueue_scripts', array( $this, 'flixita_customizer_notify_scripts_for_customizer' ), 0 );
 
 		/* ajax callback for dismissable recommended actions */
-		add_action( 'wp_ajax_quality_customizer_notify_dismiss_action', array( $this, 'flixita_customizer_notify_dismiss_recommended_action_callback' ) );
+		add_action( 'wp_ajax_flixita_customizer_notify_dismiss_action', array( $this, 'flixita_customizer_notify_dismiss_recommended_action_callback' ) );
 
-		add_action( 'wp_ajax_ti_customizer_notify_dismiss_recommended_plugins', array( $this, 'flixita_customizer_notify_dismiss_recommended_plugins_callback' ) );
+		add_action( 'wp_ajax_flixita_customizer_notify_dismiss_recommended_plugins', array( $this, 'flixita_customizer_notify_dismiss_recommended_plugins_callback' ) );
 
 	}
 
@@ -146,7 +146,7 @@ class flixita_Customizer_Notify {
 
 		$action_id = ( isset( $_GET['id'] ) ) ? $_GET['id'] : 0;
 
-		echo $action_id;
+		echo esc_html($action_id);
 
 		if ( ! empty( $action_id ) ) {
 
@@ -185,7 +185,7 @@ class flixita_Customizer_Notify {
 
 		$action_id = ( isset( $_GET['id'] ) ) ? $_GET['id'] : 0;
 
-		echo $action_id;
+		echo esc_html($action_id);
 
 		if ( ! empty( $action_id ) ) {
 
