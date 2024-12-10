@@ -12541,3 +12541,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-file a {
     text-decoration: none;
 }
+
+.wp-block-file.has-background {
+    padding: 0.5rem;
+} 
