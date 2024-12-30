@@ -12553,3 +12553,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-image .alignleft figcaption {
     text-align: left;
 }
+
+.wp-block-image .alignright figcaption {
+    text-align: right;
+}
