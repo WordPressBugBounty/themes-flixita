@@ -12557,3 +12557,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-image .alignright figcaption {
     text-align: right;
 }
+
+.wp-block-button a {
+    text-decoration: none;
+}
