@@ -12561,3 +12561,15 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-button a {
     text-decoration: none;
 }
+
+.wp-block-archives li {
+    list-style: none;
+}
+
+.wp-block-archives li a {
+    text-decoration: none;
+}
+
+.wp-block-archives {
+    padding-left: 0;
+}

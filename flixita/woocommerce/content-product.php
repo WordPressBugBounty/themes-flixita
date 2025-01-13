@@ -39,7 +39,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 			</div>
 			<div class="product-content-wrap">
 				<div class="product-content">
-					<h3><a href="<?php esc_url(the_permalink()); ?>"><?php echo esc_html(the_title()); ?></a></h3>
+					<h3><a href="<?php echo esc_url(get_permalink()); ?>"><?php echo esc_html(the_title()); ?></a></h3>
 					<div class="price">
 						<?php echo $product->get_price_html(); ?>
 					</div>
