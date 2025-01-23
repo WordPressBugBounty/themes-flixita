@@ -12585,3 +12585,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-categories li a {
     text-decoration: none;
 }
+
+.wp-block-latest-comments a {
+    text-decoration: none;
+}
+
