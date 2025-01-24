@@ -260,5 +260,40 @@
         }
     );
 	
+	//features_ttl
+    wp.customize(
+        'features_ttl',
+        function(value) {
+            value.bind(
+                function(newval) {
+                    $('.flixita-features-section  .theme-main-heading .title').text(newval);
+                }
+            );
+        }
+    );
+
+    //features_subttl
+    wp.customize(
+        'features_subttl',
+        function(value) {
+            value.bind(
+                function(newval) {
+                    $('.flixita-features-section  .theme-main-heading h2').text(newval);
+                }
+            );
+        }
+    );
+
+    //features_desc
+    wp.customize(
+        'features_desc',
+        function(value) {
+            value.bind(
+                function(newval) {
+                    $('.flixita-features-section  .theme-main-heading p').text(newval);
+                }
+            );
+        }
+    );
 
 })(jQuery);

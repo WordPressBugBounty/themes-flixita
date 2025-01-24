@@ -295,6 +295,15 @@ jQuery(document).ready(function () {
 			}
 		}
 		
+		if(parentid == 'customize-control-features_data')
+		{
+			var numItems = jQuery("#customize-control-features_data .customizer-repeater-general-control-repeater-container").length 
+			if(numItems >= 6){
+			  jQuery( "#customize-control-flixita_features_upgrade .flixita-upgrade-pro-message" ).show();
+			  return false;
+			}
+		}
+		
 		
         var th = jQuery(this).parent();
         var id = 'customizer-repeater-' + flixita_customizer_repeater_uniqid();
@@ -409,6 +418,11 @@ jQuery(document).ready(function () {
 				var main_service_items = jQuery("#customize-control-service_data .customizer-repeater-general-control-repeater-container").length 
 				if(main_service_items <= 4){
 				  jQuery( "#customize-control-flixita_service_upgrade .flixita-upgrade-pro-message" ).hide();
+				}
+				
+				var main_features_items = jQuery("#customize-control-features_data .customizer-repeater-general-control-repeater-container").length 
+				if(main_features_items <= 6){
+				  jQuery( "#customize-control-flixita_features_upgrade .flixita-upgrade-pro-message" ).hide();
 				}
 				
                 jQuery(this).parent().remove();

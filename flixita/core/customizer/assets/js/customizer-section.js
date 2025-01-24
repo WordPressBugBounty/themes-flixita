@@ -11,6 +11,10 @@ function flixitashomesettingsscroll(section_id) {
         case 'accordion-section-service_section_set':
             scroll_section_id = "service-section";
             break;
+		
+		case 'accordion-section-features_section_set':
+            scroll_section_id = "flixita-features-section";
+            break;		
 
         case 'accordion-section-call_action_section_set':
             scroll_section_id = "flixita-call-action-section";
