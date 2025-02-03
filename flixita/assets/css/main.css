@@ -12593,3 +12593,9 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .wp-block-latest-comments.has-background {
     padding: 10px;
 }
+
+a.wp-block-latest-posts__post-title:hover, 
+a.wp-block-latest-posts__post-title:focus {
+    color: var(--bs-primary);
+}
+
