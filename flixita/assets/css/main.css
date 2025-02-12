@@ -12602,3 +12602,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-latest-posts.wp-block-latest-posts__list.has-background li {
     padding: 1rem;
 }
+
+.wp-block-categories li a {
+    color: var(--bs-secondary);
+}
