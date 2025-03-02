@@ -12611,3 +12611,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-categories li a:focus {
     color: var(--bs-primary);
 }
+
+.footer-main .wp-block-calendar td {
+    color: var(--bs-secondary);
+}
