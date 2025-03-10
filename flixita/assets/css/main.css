@@ -12615,3 +12615,7 @@ a.wp-block-latest-posts__post-title:focus {
 .footer-main .wp-block-calendar td {
     color: var(--bs-secondary);
 }
+
+.wp-block-loginout.has-background {
+    padding: 1rem;
+}
