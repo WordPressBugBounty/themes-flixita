@@ -12619,3 +12619,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-loginout.has-background {
     padding: 1rem;
 }
+
+.wp-block-loginout a {
+    text-decoration: none;
+}
