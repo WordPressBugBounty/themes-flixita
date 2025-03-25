@@ -12623,3 +12623,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-loginout a {
     text-decoration: none;
 }
+
+.wp-block-post-author.has-background {
+    padding: 1rem;
+}
