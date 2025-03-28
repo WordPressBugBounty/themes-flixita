@@ -191,7 +191,9 @@ li#accordion-section-flixita_upgrade_premium .accordion-section-title:after {
     color: #ffffff !important;
 }
 li#accordion-section-flixita_upgrade_premium .accordion-section-title,
-li#accordion-section-flixita_upgrade_premium .accordion-section-title:hover {
+li#accordion-section-flixita_upgrade_premium .accordion-section-title:hover,
+li#accordion-section-flixita_upgrade_premium .accordion-section-title button:hover,
+li#accordion-section-flixita_upgrade_premium .accordion-section-title button:focus {
 	color: #ffffff !important;
 	border-left: none;
 	background: #009efa;  /* fallback for old browsers */
