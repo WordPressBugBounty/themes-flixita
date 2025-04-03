@@ -12627,3 +12627,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-post-author.has-background {
     padding: 1rem;
 }
+
+.wp-block-post-author img {
+    border-radius: 100%;
+}
