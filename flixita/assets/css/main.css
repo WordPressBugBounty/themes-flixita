@@ -12631,3 +12631,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-post-author img {
     border-radius: 100%;
 }
+
+.wp-block-site-title a {
+    text-decoration: none;
+}
