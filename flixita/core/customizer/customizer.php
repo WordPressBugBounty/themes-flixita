@@ -49,6 +49,32 @@ add_action('customize_controls_enqueue_scripts','flixita_customizer_script');
 function flixita_customizer_settings()
 {
 
+	/*
+	 *  Customizer Notifications
+	 */
+
+	require get_template_directory() . '/core/customizer/customizer-notice/flixita-customizer-notify.php';
+
+	$flixita_config_customizer = array(
+		'recommended_plugins'                      => array(
+			'daddy-plus' => array(
+				'recommended' => true,
+				'description' => sprintf(
+					/* translators: %s: plugin name */
+					esc_html__( 'Recommended Plugin: If you want to show all the features and business sections of the FrontPage. please install and activate %s plugin', 'flixita' ),
+					'<strong>Daddy Plus</strong>'
+				),
+			),
+		),
+		'recommended_actions'                      => array(),
+		'recommended_actions_title'                => esc_html__( 'Recommended Actions', 'flixita' ),
+		'recommended_plugins_title'                => esc_html__( 'Add More Features', 'flixita' ),
+		'install_button_label'                     => esc_html__( 'Install and Activate', 'flixita' ),
+		'activate_button_label'                    => esc_html__( 'Activate', 'flixita' ),
+		'flixita_deactivate_button_label' => esc_html__( 'Deactivate', 'flixita' ),
+	);
+	flixita_Customizer_Notify::init( apply_filters( 'flixita_customizer_notify_array', $flixita_config_customizer ) );
+	
 	$settings = array(
 		'panels-and-sections',
 		'selective-refresh-and-partial',
@@ -87,30 +113,3 @@ function flixita_recommended_plugin_section( $manager ) {
 	// Register custom section types.
 	$manager->register_section_type( 'flixita_Customize_Recommended_Plugin_Section' );
 }
-
-
-/*
- *  Customizer Notifications
- */
-
-require get_template_directory() . '/core/customizer/customizer-notice/flixita-customizer-notify.php';
-
-$flixita_config_customizer = array(
-	'recommended_plugins'                      => array(
-		'daddy-plus' => array(
-			'recommended' => true,
-			'description' => sprintf(
-				/* translators: %s: plugin name */
-				esc_html__( 'Recommended Plugin: If you want to show all the features and business sections of the FrontPage. please install and activate %s plugin', 'flixita' ),
-				'<strong>Daddy Plus</strong>'
-			),
-		),
-	),
-	'recommended_actions'                      => array(),
-	'recommended_actions_title'                => esc_html__( 'Recommended Actions', 'flixita' ),
-	'recommended_plugins_title'                => esc_html__( 'Add More Features', 'flixita' ),
-	'install_button_label'                     => esc_html__( 'Install and Activate', 'flixita' ),
-	'activate_button_label'                    => esc_html__( 'Activate', 'flixita' ),
-	'flixita_deactivate_button_label' => esc_html__( 'Deactivate', 'flixita' ),
-);
-flixita_Customizer_Notify::init( apply_filters( 'flixita_customizer_notify_array', $flixita_config_customizer ) );

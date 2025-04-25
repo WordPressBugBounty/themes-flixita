@@ -1,9 +1,9 @@
 == Flixita ==
 Contributors: themesdaddy
 Requires at least: 4.5
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.4
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -61,6 +61,9 @@ License: CC0 Public Domain
 Source: https://stocksnap.io/photo/macbook-laptop-LEJ7HJ5BEA
 
 == Changelog ==
+
+@Version 1.1.7
+* Tested With WordPress 6.8
 
 @Version 1.1.6
 * Block Site Title Style Issue Fixed
