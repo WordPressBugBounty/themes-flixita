@@ -12635,3 +12635,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-site-title a {
     text-decoration: none;
 }
+
+.wp-block-page-list {
+	padding: 0;
+}
