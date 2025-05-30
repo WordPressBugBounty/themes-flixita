@@ -12639,3 +12639,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-page-list {
 	padding: 0;
 }
+
+.wp-block-image .alignleft figcaption {
+	text-align: left;
+}
