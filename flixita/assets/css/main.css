@@ -4671,7 +4671,7 @@ button.scrollingUp:focus {
 .breadcrumb-content .breadcrumb-list li a:hover i,
 .breadcrumb-content .breadcrumb-list li a:focus i {
     color: var(--bs-white);
-    background-color: var(--bs-secondary);
+    background-color: transparent;
     transform: rotate(360deg);
 }
 
