@@ -12651,3 +12651,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-embed figcaption {
     text-align: center;
 }
+
+.wp-block-site-title.has-background {
+    padding: 1rem;
+}
