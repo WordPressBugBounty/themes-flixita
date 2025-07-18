@@ -8618,7 +8618,7 @@ a.service-02-button {
     pointer-events: none;
     z-index: 1;
 }
-}
+
 .single-info img {
     min-height: 230px;
 	object-fit: cover;
@@ -8683,7 +8683,7 @@ a.service-02-button {
     left: 20px;
     z-index: 1;
 }
-/**** ***************//
+/**** ***************/
 
 /***********service-2 section-  Bubble Animation Section ******/
 
@@ -12653,5 +12653,9 @@ a.wp-block-latest-posts__post-title:focus {
 }
 
 .wp-block-site-title.has-background {
+    padding: 1rem;
+}
+
+.wp-block-site-tagline.has-background {
     padding: 1rem;
 }

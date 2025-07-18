@@ -3,7 +3,7 @@ Contributors: themesdaddy
 Requires at least: 4.5
 Tested up to: 6.8
 Requires PHP: 5.4
-Stable tag: 1.1.14
+Stable tag: 1.1.15
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -61,6 +61,9 @@ License: CC0 Public Domain
 Source: https://stocksnap.io/photo/macbook-laptop-LEJ7HJ5BEA
 
 == Changelog ==
+
+@Version 1.1.15
+* Block Site Tagline Style Issue Fixed
 
 @Version 1.1.14
 * Block Site Title Style Issue Fixed
