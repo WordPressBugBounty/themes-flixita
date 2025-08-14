@@ -12659,3 +12659,8 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-site-tagline.has-background {
     padding: 1rem;
 }
+
+.wp-block-post-title a:hover, 
+.wp-block-post-title a:focus {
+    color: var(--bs-primary);
+}
