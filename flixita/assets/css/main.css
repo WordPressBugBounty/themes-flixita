@@ -12664,3 +12664,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-post-title a:focus {
     color: var(--bs-primary);
 }
+
+.wp-block-categories li a {
+    color: var(--bs-secondary);
+}
