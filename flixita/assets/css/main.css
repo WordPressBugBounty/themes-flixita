@@ -12668,3 +12668,7 @@ a.wp-block-latest-posts__post-title:focus {
 .wp-block-categories li a {
     color: var(--bs-secondary);
 }
+
+.is-large.wc-block-cart .wc-block-cart__totals-title {
+	font-size: 2.5rem;
+}
