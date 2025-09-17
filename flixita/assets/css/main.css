@@ -12672,3 +12672,7 @@ a.wp-block-latest-posts__post-title:focus {
 .is-large.wc-block-cart .wc-block-cart__totals-title {
 	font-size: 2.5rem;
 }
+
+table.wc-block-cart-items .wc-block-cart-items_row .wc-block-cart-itemquantity .wc-block-cart-item_remove-link {
+    text-decoration: none;
+}
