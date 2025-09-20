@@ -336,6 +336,11 @@ function flixita_woo_add_to_cart_fragment($fragments)
     return $fragments;
 }
 
+add_filter( 'woocommerce_show_admin_notice', function ( $show, $notice ) {
+	if ( 'template_files' === $notice ) { return false; }
+	return $show;
+}, 10, 2 );
+
 // Page Title
 if (!function_exists('flixita_page_title'))
 {
