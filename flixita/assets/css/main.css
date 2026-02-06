@@ -12680,3 +12680,28 @@ table.wc-block-cart-items .wc-block-cart-items_row .wc-block-cart-itemquantity .
 .wp-block-latest-posts__list .wp-block-latest-posts__post-title {
     font-size: 1.5rem;
 }
+
+.sidebar .wp-block-latest-comments li a {
+    color: var(--bs-secondary);
+}
+
+.sidebar .wp-block-latest-comments li a:hover,
+.sidebar .wp-block-latest-comments li a:focus {
+    color: var(--bs-primary);
+}
+
+.woocommerce table.shop_table td a {
+	text-decoration: none;
+}
+
+.footer-main .widget li a:focus {
+    outline: none;
+}
+
+.sidebar .widget li a:focus {
+	outline: none;
+}
+
+.wp-block-avatar img {
+    border-radius: 100%;
+}

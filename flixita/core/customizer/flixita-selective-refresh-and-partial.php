@@ -2,21 +2,21 @@
 function flixita_selective_refresh( $wp_customize ) {
 	// hdr_info1_title
 	$wp_customize->selective_refresh->add_partial( 'hdr_info1_title', array(
-		'selector'            => '.above-header .info1 h6',
+		'selector'            => '.above-header .info1 h6 a',
 		'settings'            => 'hdr_info1_title',
 		'render_callback'  => 'flixita_hdr_info1_title_render_callback',
 	) );
 	
 	// hdr_info2_title
 	$wp_customize->selective_refresh->add_partial( 'hdr_info2_title', array(
-		'selector'            => '.main-header .info2 h6',
+		'selector'            => '.main-header .info2 h6 a',
 		'settings'            => 'hdr_info2_title',
 		'render_callback'  => 'flixita_hdr_info2_title_render_callback',
 	) );
 	
 	// hdr_info3_title
 	$wp_customize->selective_refresh->add_partial( 'hdr_info3_title', array(
-		'selector'            => '.main-header .info3 h6',
+		'selector'            => '.main-header .info3 h6 a',
 		'settings'            => 'hdr_info3_title',
 		'render_callback'  => 'flixita_hdr_info3_title_render_callback',
 	) );

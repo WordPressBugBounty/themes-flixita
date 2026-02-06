@@ -56,7 +56,7 @@
         function(value) {
             value.bind(
                 function(newval) {
-                    $('.above-header .info1 h6').text(newval);
+                    $('.above-header .info1 h6 a').text(newval);
                 }
             );
         }
@@ -68,7 +68,7 @@
         function(value) {
             value.bind(
                 function(newval) {
-                    $('.main-header .info2 h6').text(newval);
+                    $('.main-header .info2 h6 a').text(newval);
                 }
             );
         }
@@ -80,7 +80,7 @@
         function(value) {
             value.bind(
                 function(newval) {
-                    $('.main-header .info3 h6').text(newval);
+                    $('.main-header .info3 h6 a').text(newval);
                 }
             );
         }

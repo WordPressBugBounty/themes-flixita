@@ -1,9 +1,9 @@
 == Flixita ==
 Contributors: themesdaddy
 Requires at least: 4.5
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.4
-Stable tag: 1.1.22
+Stable tag: 1.1.31
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
@@ -61,6 +61,33 @@ License: CC0 Public Domain
 Source: https://stocksnap.io/photo/macbook-laptop-LEJ7HJ5BEA
 
 == Changelog ==
+
+@Version 1.1.31
+* Top Bar Contact Info Selective Refresh Issue Fixed
+
+@Version 1.1.30
+* Block Author Image Border Radius Changed
+
+@Version 1.1.29
+* Sidebar Widget link Outline issue Fixed
+
+@Version 1.1.28
+* Footer Widget link Outline issue Fixed
+
+@Version 1.1.27
+* Tested With WordPress 6.9
+
+@Version 1.1.26
+* WooCommerce Cart Page Text Decoration Issue Fixed
+
+@Version 1.1.25
+* Block Latest Comment Hover & Focus Color Changed
+
+@Version 1.1.24
+* Block Latest Comment Color Issue Fixed
+
+@Version 1.1.23
+* Tested With WordPress 6.8.3
 
 @Version 1.1.22
 * Block Latest Post Title Font Size Changed
