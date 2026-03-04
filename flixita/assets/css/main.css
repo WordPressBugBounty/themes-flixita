@@ -12705,3 +12705,7 @@ table.wc-block-cart-items .wc-block-cart-items_row .wc-block-cart-itemquantity .
 .wp-block-post-title a {
     text-decoration: none;
 } 
+
+.shopping-cart .cart-items .item-name {
+    color: var(--bs-secondary);
+} 
