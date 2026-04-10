@@ -12709,3 +12709,7 @@ table.wc-block-cart-items .wc-block-cart-items_row .wc-block-cart-itemquantity .
 .shopping-cart .cart-items .item-name {
     color: var(--bs-secondary);
 } 
+
+.shopping-cart ul.cart-items li a {
+    text-decoration: none;
+}
