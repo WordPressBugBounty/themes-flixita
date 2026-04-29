@@ -12713,3 +12713,7 @@ table.wc-block-cart-items .wc-block-cart-items_row .wc-block-cart-itemquantity .
 .shopping-cart ul.cart-items li a {
     text-decoration: none;
 }
+
+table.wc-block-cart-items .wc-block-cart-items__header th{
+    color: var(--bs-secondary);
+}
