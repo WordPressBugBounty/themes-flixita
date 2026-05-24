@@ -12721,3 +12721,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th{
 .wc-block-components-formatted-money-amount {
     font-weight: 600;
 }
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+    font-weight: 600;
+}
