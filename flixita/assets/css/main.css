@@ -12729,3 +12729,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
 table.wc-block-cart-items .wc-block-cart-items__header th {
     font-size: 1rem;
 }
+
+.wc-block-cart .wc-block-cart__submit-container a {
+    text-decoration: none;
+}
