@@ -7,7 +7,7 @@ wp_nav_menu(
 		'theme_location' => 'primary_menu',
 		'container'  => '',
 		'menu_class' => 'main-menu',
-		'fallback_cb' => 'flixita_bootstrap_navwalker::fallback',
+		'fallback_cb' => 'flixita_bootstrap_fallback_page_menu',
 		'walker' => new flixita_bootstrap_navwalker()
 		 ) 
 	);
