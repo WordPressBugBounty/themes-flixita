@@ -12733,3 +12733,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th {
 .wc-block-cart .wc-block-cart__submit-container a {
     text-decoration: none;
 }
+
+.wc-block-cart__submit-button {
+	background: var(--bs-primary);
+}
